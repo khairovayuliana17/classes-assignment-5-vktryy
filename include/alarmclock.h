@@ -3,6 +3,12 @@
 class AlarmClock {
   private:
     // your code here
+    int hours = 0;
+    int minutes = 0;
+    bool activeStatus = false;
+    int volume = 0;
+    std::string melody = "";
+
   public:
     // Конструктор по умолчанию
     AlarmClock();
